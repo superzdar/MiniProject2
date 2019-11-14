@@ -1,0 +1,104 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    font-size: 1em
+}
+
+span.firstletter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+span.insidespan {
+    color: red;
+}
+
+h2 {
+    font-style: italic;
+    text-align: right;
+    color: blue;
+}
+
+h2.Secondh2 {
+    font-size: 3em;
+}
+
+h3 {
+    text-align: right;
+    color: red;
+}
+
+table {
+    background-color: cyan;
+    padding: 10px;
+    border-spacing: 15px;
+}
+
+td.td1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    animation-name: bgchange;
+    animation-fill-mode: forwards;
+    animation-duration: 7s;
+}
+
+@keyframes bgchange {
+    from {
+        background-color: cyan;
+    }
+
+    to {
+        background-color: green;
+    }
+
+    from {
+        color: black;
+    }
+
+    to {
+        color: white;
+    }
+}
+
+div {
+    position: absolute;
+    white-space: nowrap;
+    animation: banner 20s linear infinite;
+}
+
+@keyframes banner {
+    0% {
+        right: 0%;
+    }
+
+    50% {
+        right: 100%;
+    }
+
+    100% {
+        right: 0%;
+    }
+}
